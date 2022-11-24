@@ -1,0 +1,39 @@
+.frontcard{
+    top: 150px;
+    left: 200px;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 25%;
+    height: auto;
+    background-color: #F1EDC0;
+    padding: 25px;
+}
+
+.frontcard h1{
+    font-size: 40px;
+    color: #4E5251;
+    inline-size: 250px;
+    overflow-wrap: break-word;
+}
+
+.frontcard p{
+    margin-top: 20px;
+    color: #707272;
+    font-size: 13px;
+}
+
+.link{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link p{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.link p:hover{
+    color: #2a7a7a;
+}

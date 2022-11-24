@@ -1,0 +1,22 @@
+.aboutCard{
+    width: 33%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aquamarine;
+}
+
+.aboutImg{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(151, 151, 151);
+}
+
+.aboutCardInfo{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}

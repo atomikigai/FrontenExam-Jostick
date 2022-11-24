@@ -1,0 +1,44 @@
+.portada{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.portada-izquierda, .portada-derecha{
+    height: auto;
+}
+
+.portada-izquierda{
+    width: 60%;
+    background-color: rgb(70, 115, 155);
+}
+
+.portada-izquierda img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.portada-izquierda div{
+    position: absolute;
+    top: 400px;
+    margin-left: 20px;
+    font-size: 20px;
+    left: 56%;
+    color: #4D5152;
+    cursor: pointer;
+}
+
+.portada-derecha{
+    width: 40%;
+    background-color: #F3D6D8;
+}
+
+.portada-derecha div{
+    position: absolute;
+    top: 400px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #4D5152;
+    cursor: pointer;
+}
