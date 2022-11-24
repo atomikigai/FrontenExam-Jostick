@@ -15,7 +15,7 @@ const Card = (props) =>{
                     <p>{props.description}</p>
                     <div className="cardlink">
                         { props.link !== undefined ?(
-                            <span>{props.linkdescription} <i className="fa-solid fa-arrow-right"></i></span>
+                            <a href={props.link} target="_blank">{props.linkdescription} <i className="fa-solid fa-arrow-right"></i></a>
                         ):(
                             <span></span>
                         ) 

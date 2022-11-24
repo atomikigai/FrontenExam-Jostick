@@ -17,6 +17,11 @@
     list-style: none;
     color: #CFF1F0;
     font-size: 15px;
+    cursor: pointer;
+}
+
+.miniNav li:hover{
+    color: #7eb1af;
 }
 
 .miniNav li:nth-child(n+2){

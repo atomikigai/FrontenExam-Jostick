@@ -15,7 +15,7 @@ const LargeMessage = (props) =>{
                  reprehenderit in voluptate velit 
                  esse cillum dolore eu fugiat nulla pariatur."
                 linkdescription="browse our collections"
-                link="#"
+                link="https://google.com/"
             />
         </div>
     )

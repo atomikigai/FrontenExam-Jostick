@@ -34,6 +34,12 @@
     cursor: pointer;
 }
 
-.link p:hover{
+.link a{
+    text-decoration: none;
+    color: #707272;
+    font-size: 13px;
+}
+
+.link a:hover{
     color: #2a7a7a;
 }

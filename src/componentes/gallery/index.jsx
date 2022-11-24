@@ -12,7 +12,7 @@ const Gallery = () =>{
                     title={"Discover your true style"} 
                     description={"adipiscing elit, sed do eiusmod tempor incididunt ut labore et."}
                     linkdescription={"explore our trends"}
-                    link={"#"}
+                    link={"https://google.com/"}
                 />
                 <Card style="cardinfo"/>
                 <Card image={true} url={"https://media.revistaad.es/photos/60c22bb31cbd49b17897bc00/master/w_1600%2Cc_limit/225338.jpg"}/>

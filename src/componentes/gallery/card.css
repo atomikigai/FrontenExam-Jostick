@@ -48,12 +48,13 @@
     justify-content: flex-end;
 }
 
-.cardlink span{
+.cardlink a{
+    text-decoration: none;
     font-size: 13px;
     color: #232524;
     cursor: pointer;
 }
 
-.cardlink span:hover{
+.cardlink a:hover{
     color: #4A5350;
 }

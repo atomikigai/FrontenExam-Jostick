@@ -1,7 +1,7 @@
 import "./frontcard.css";
 
-const FrontCard = (props) =>{
-    return(
+const FrontCard = (props) => {
+    return (
         <div className="frontcard">
             <h1>
                 {props.title}
@@ -10,7 +10,8 @@ const FrontCard = (props) =>{
                 {props.description}
             </p>
             <div className="link">
-                <p>{props.linkdescription} <i className="fa-solid fa-arrow-right"></i></p>
+                <a href={props.link} target="_blank">{props.linkdescription}
+                    <i className="fa-solid fa-arrow-right"></i></a>
             </div>
         </div>
     )

@@ -22,7 +22,7 @@ const Portada = () =>{
                     description="Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Autem magni inventore culpa."
                     linkdescription="discover this trend"
-                    link="#"
+                    link="https://google.com/"
                 />
             </div>
         </>
