@@ -1,0 +1,16 @@
+.round{
+    width: 40px;
+    height: 40px;
+    background-color: #4E5253;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.roundLink{
+    text-decoration: none;
+    color: #fff;
+}

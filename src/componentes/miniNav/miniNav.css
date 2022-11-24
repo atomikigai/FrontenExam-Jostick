@@ -4,6 +4,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    
 }
 
 .miniNav ul{
@@ -14,8 +15,11 @@
 
 .miniNav li{
     list-style: none;
+    color: #CFF1F0;
+    font-size: 15px;
 }
 
 .miniNav li:nth-child(n+2){
     margin-left: 20px;
 }
+
